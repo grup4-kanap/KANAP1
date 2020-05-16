@@ -38,12 +38,15 @@ namespace Group4.KANAP.Areas.Identity.Pages.Account
             [Display(Name = "Kilo")]
             public string Weight { get; set; }
 
+            [Required]
             [Display(Name = "Doğum Tarihi")]
             public DateTime? BirthDay { get; set; }
 
+            [Required]
             [Display(Name = "Kan Grubu")]
             public string BloodType { get; set; }
-
+    
+            [Required]
             [Display(Name = "Rh")]
             public string Rh { get; set; }
         }
